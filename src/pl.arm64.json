@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.7.4",
+	"version": "1.7.9",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -38,10 +38,10 @@
 		{
 			"folder-name": "GotoLineCol",
 			"display-name": "GotoLineCol",
-			"version": "2.4.3.0",
-			"id": "1019dd82d549f3fcdbc90ed5a19010b5fdefc927ab0041c99f1a36d73c5934d6",
-			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.3.0/GotoLineCol_arm64.zip",
-			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point at cursor position. Darkmode enabled. Command line options.",
+			"version": "2.4.4.0",
+			"id": "d91028454d58c333e5f04bdda2a6869dfdab6b9d0db881070121accd6971ec8c",
+			"repository": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin/releases/download/v2.4.4.0/GotoLineCol_arm64.zip",
+			"description": "A plugin to navigate to a specified line and (byte-based or character-based) column position. Will also display character byte code, UTF-8 byte sequence & Unicode code point, name & block at cursor position. Darkmode enabled. Command line options.",
 			"author": "Shridhar Kumar",
 			"homepage": "https://github.com/shriprem/Goto-Line-Col-NPP-Plugin"
 		},
@@ -54,6 +54,17 @@
 			"description": "Hex editor. Some reported issues, however many bugs fixed in latest release.",
 			"author": "Jens Lorenz",
 			"homepage": "https://github.com/chcg/NPP_HexEdit"
+		},
+		{
+			"folder-name": "HTMLTag",
+			"display-name": "HTML Tag",
+			"version": "1.5.2.0",
+			"npp-compatible-versions": "[8.3,]",
+			"id": "8dc0ec180499db04b724b62945de0f2ff1dac677763fd63d67fd4a6f9d80f491",
+			"repository": "https://bitbucket.org/rdipardo/htmltag/downloads/HTMLTag_v1.5.2_arm64.zip",
+			"description": "Provides three core functions:\r\n- HTML and XML tag jumping, like the built-in brace matching and selection\r\n of tags and/or contents.\r\n- HTML entity encoding/decoding (example: é to &eacute;)\r\n- JS character encoding/decoding (example: é to \\u00E9)",
+			"author": "Martijn Coppoolse",
+			"homepage": "https://bitbucket.org/rdipardo/htmltag"
 		},
 		{
 			"folder-name": "mimeTools",
@@ -70,11 +81,11 @@
 		{
 			"folder-name": "MultiReplace",
 			"display-name": "MultiReplace",
-			"version": "3.1.2.18",
+			"version": "4.2.0.22",
 			"npp-compatible-versions": "[8.5.4,]",
-			"id": "89e2a493a651f1d20283aa352141b64652430c46bd1cbf0451609d4005397707",
-			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/3.1.2.18/MultiReplace-v3.1.2.18-ARM64.zip",
-			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; dynamic computational operations; rectangular selection support.",
+			"id": "5cb45acb36b43f9f83fc3b041139f4f9077fe564fa488c859f1f9c0756831f83",
+			"repository": "https://github.com/daddel80/notepadpp-multireplace/releases/download/4.2.0.22/MultiReplace-v4.2.0.22-ARM64.zip",
+			"description": "Advanced multi-string replacement; storage of search/replace patterns; CSV column highlighting, targeting, and sorting; mathematical operations on matched strings; rectangular selection support; external lookup files for data normalization and anonymization.",
 			"author": "Thomas Knoefel",
 			"homepage": "https://github.com/daddel80/notepadpp-multireplace"
 		},
@@ -147,9 +158,9 @@
 		{
 			"folder-name": "NppDocShare",
 			"display-name": "NppNetNote",
-			"version": "0.1.0.0",
-			"id": "a0e6219399201d60b8f5c3ca702aa8de7b236b4c53a80366b1573527225e0928",
-			"repository": "https://github.com/chcg/NppDocShare/releases/download/0.1.13/NppDocShare_0.1.13_arm64.zip",
+			"version": "0.2.0.0",
+			"id": "dd72e8a42af7b486315bde0426f468d0fcd6ed30f0ff21e91f16d9622ab94051",
+			"repository": "https://github.com/chcg/NppDocShare/releases/download/0.2.0/NppDocShare_0.2.0_arm64.zip",
 			"description": "Allows the same document to be edited in real time on two different computers. Only needs a network connection between the two.",
 			"author": "Harrybharry",
 			"homepage": "https://sourceforge.net/projects/npp-plugins/files/NppDocShare/"
@@ -227,11 +238,21 @@
 			"homepage": "https://github.com/chcg/SpeechPlugin"
 		},
 		{
+			"folder-name": "StayAwake_NPP",
+			"display-name": "StayAwake",
+			"version": "1.0.0.0",
+			"id": "6ec67c7c9442fc9f26f3ddd4ea3e32489616dc1a1ad0e22c1a4c34c786c66db5",
+			"repository": "https://github.com/shriprem/StayAwake_NPP_Plugin/releases/download/v1.0.0.0/StayAwake_NPP_arm64.zip",
+			"description": "StayAwake is a simple utility that enables you to maintain an Active status on Microsoft Teams by periodically cycling (double-toggling) the Scroll Lock button.",
+			"author": "Shridhar Kumar",
+			"homepage": "https://github.com/shriprem/StayAwake_NPP_Plugin"
+		},
+		{
 			"folder-name": "NppTaskList",
 			"display-name": "Task List",
-			"version": "2.6",
-			"id": "6defc5713d44366d8438ff496895554a6245e27e5d8c05d066adacf1c74e7ba8",
-			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.6.0/NppTaskList_v2.6.0_arm64.zip",
+			"version": "2.7",
+			"id": "15b6efe748bc19bcc2ba7f059f56296d23343f1ebfe118c4a616aff6d100b7b8",
+			"repository": "https://github.com/Megabyteceer/npp-task-list/releases/download/v2.7.0/NppTaskList_v2.7.0_arm64.zip",
 			"description": "Automatically scans the open document and adds all \"TODO:*\" items to your task list, a window pane docked on the right. Double-clicking an item in the list will take you to that line in the code.",
 			"author": "blitowitz",
 			"homepage": "https://github.com/Megabyteceer/npp-task-list"
@@ -249,12 +270,12 @@
 		{
 			"folder-name": "NPPJSONViewer",
 			"display-name": "JSON Viewer",
-			"version": "2.0.7.0",
-			"id": "8d94cba37bd47b0bb5f67654b3bd2a4ce84ae398fe1e86cdc029afe949ee370e",
-			"repository": "https://github.com/kapilratnani/JSON-Viewer/releases/download/v2.0.7.0/NPPJSONViewer_ARM64.zip",
+			"version": "2.1.0.0",
+			"id": "37b87effab3dddf15f71618f734577b497f89c016944076bed497fbdb7118b7a",
+			"repository": "https://github.com/NPP-JSONViewer/JSON-Viewer/releases/download/v2.1.0.0/ARM64_Release.zip",
 			"description": "JSON viewer that displays the selected JSON string in a tree view.",
 			"author": "Kapil Ratnani, Rajendra Singh",
-			"homepage": "https://github.com/kapilratnani/JSON-Viewer",
+			"homepage": "https://github.com/NPP-JSONViewer/JSON-Viewer",
 			"npp-compatible-versions": "[8.4.5,]"
 		},
 		{
